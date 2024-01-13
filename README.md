@@ -6,7 +6,7 @@ Main page for the winter project of MatLab DMBE - Module 1
 
 Minimal technical requirement for using this repo:
 
-- MATLAB R2021a (23.2.0.2391609 (R2023b) Update 2 Beta 1.0)
+- MATLAB R2023b (23.2.0.2391609 Update 2 Beta 1.0)
 - OpenGL (all versions)
 - Vulkan (all versions)
 - MatLab test (part of SimuLink SDK)
