@@ -1,0 +1,73 @@
+EX. 2 output file 
+ 
+--------- sample mean ---------
+meanIta: 1.467430e+00
+meanFr: 1.560640e+00
+meanDe: 1.722826e+00
+meanEs: 1.742288e+00
+meanUsa: 1.787292e+00
+ 
+--------- mode ---------
+modeIta: -8.534686e+00
+modeFr: -8.034474e+00
+modeDe: -5.454577e+00
+modeEs: -1.175756e+01
+modeUsa: -3.700953e+00
+ 
+--------- median ---------
+medianIta: 1.546896e+00
+medianFr: 1.718389e+00
+medianDe: 1.713838e+00
+medianEs: 1.906327e+00
+medianUsa: 1.934742e+00
+ 
+--------- range ---------
+rangeIta: 1.611726e+01
+rangeFr: 1.456959e+01
+rangeDe: 1.132421e+01
+rangeEs: 1.871975e+01
+rangeUsa: 1.001312e+01
+ 
+--------- IQR ---------
+iqrIta: 2.365586e+00
+iqrFrance: 2.205265e+00
+iqrDe: 2.409417e+00
+iqrEs: 2.970279e+00
+iqrUsa: 2.072174e+00
+ 
+--------- Sample Variance ---------
+varIta: 7.896965e+00
+varFr: 4.795697e+00
+varDe: 4.318792e+00
+varEs: 9.041420e+00
+varUsa: 4.340906e+00
+ 
+--------- Sample Standard Deviation ---------
+stdIta: 2.810154e+00
+stdFr: 2.189908e+00
+stdDe: 2.078170e+00
+stdEs: 3.006895e+00
+stdUsa: 2.083484e+00
+ 
+
+
+Covariance Matrix:
+ 
+Paesi     Italy          France         Germany        Spain          U.S.A.         
+-----------------------------------------------------------------------------------
+Italy     7.8970         5.4516         4.0973         6.7045         3.6994         
+France    5.4516         4.7957         3.2327         5.5147         3.0062         
+Germany   4.0973         3.2327         4.3188         3.4173         2.4064         
+Spain     6.7045         5.5147         3.4173         9.0414         3.4880         
+U.S.A.    3.6994         3.0062         2.4064         3.4880         4.3409         
+
+
+Correlation Matrix:
+ 
+Paesi     Italy          France         Germany        Spain          U.S.A.         
+-----------------------------------------------------------------------------------
+Italy     1.0000         0.8859         0.7016         0.7935         0.6318         
+France    0.8859         1.0000         0.7103         0.8375         0.6589         
+Germany   0.7016         0.7103         1.0000         0.5469         0.5558         
+Spain     0.7935         0.8375         0.5469         1.0000         0.5568         
+U.S.A.    0.6318         0.6589         0.5558         0.5568         1.0000         
