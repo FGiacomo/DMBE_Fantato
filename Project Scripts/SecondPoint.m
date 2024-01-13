@@ -15,21 +15,21 @@ classdef SecondPoint
             % yeardiffItaly = diff(italyGDP);
             % changesRateIta = (yeardiffItaly ./ italyGDP(1:end-1)) * 100;
             meanItaly = mean(changesRateIta);
-            fprintf('Sample mean: %.4f%%\n', meanItaly);
+            fprintf('Sample mean: %.4f\n', meanItaly);
             medianItaly = median(changesRateIta);
-            fprintf('Median: %.4f%%\n', medianItaly);
+            fprintf('Median: %.4f\n', medianItaly);
             modeItaly = mode(changesRateIta);
-            fprintf('Mode: %.4f%%\n', modeItaly);
+            fprintf('Mode: %.4f\n', modeItaly);
             % -------- dispersion estimators: ------------
             rangeItaly = max(changesRateIta)-min(changesRateIta);
-            fprintf('Range: %.4f%%\n', rangeItaly);
+            fprintf('Range: %.4f\n', rangeItaly);
             %IQR:
             iqrItaly = quantile(changesRateIta,0.75)-quantile(changesRateIta,0.25);
-            fprintf('IQR %.4f%%\n', iqrItaly);
+            fprintf('IQR %.4f\n', iqrItaly);
             stdIta = std(changesRateIta);
-            fprintf("Standard deviation: %.4f%%\n", stdIta);
+            fprintf("Standard deviation: %.4f\n", stdIta);
             varIta = var(changesRateIta);
-            fprintf("Variance: %.4f%%\n", varIta);
+            fprintf("Variance: %.4f\n", varIta);
 
             %% ----------- FRANCE ---------------
             disp('');
@@ -105,7 +105,7 @@ classdef SecondPoint
             medianUsa = median(changesRateUsa);
             fprintf('Median: %.4f \n', medianUsa);
             modeUsa = mode(changesRateUsa);
-            fprintf('Mode: %.4f $\n', modeUsa);
+            fprintf('Mode: %.4f \n', modeUsa);
             rangeUsa = max(changesRateUsa)-min(changesRateUsa);
             fprintf('Range: %.4f\n', rangeUsa);
             %IQR:
